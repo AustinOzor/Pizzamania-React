@@ -1,0 +1,120 @@
+/*Navigation
+..................*/
+.navhead{
+  background-color: rgb(235, 113, 68);
+  border: none;
+  border-radius: 0;
+  margin-bottom:  0;
+}
+.navhead .companyname{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sansita swashed;
+}
+  .navbar-nav ul li a {
+    color: white;
+}
+/*Carousel
+...................*/
+.carousel-height {
+  height: 50%;
+
+}
+.carousel-inner .item img {
+  width: 100%;
+  height: 20% !important;
+  object-fit: cover;
+}
+.picon{
+  position: relative;
+  top:5px;
+}
+.aboutpizza{
+  color: brown;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.pic{
+  position: relative;
+  bottom: 3px;
+}
+.aboutpic{
+  position: relative;
+ top: 32px;
+}
+h3{
+  color: brown;
+  font-style: italic;
+}
+.pizzatype{
+  padding: 10px 0;
+}
+/*Footer*/
+ .footer {
+  background-color: brown;
+  color: white;
+
+ }
+.fa-brands, .fa-regular {
+  padding: 15px 0;
+  margin: 6px;
+  color: white;
+}
+.foota {
+  display: flex;
+  justify-content: center;
+  
+  padding:10px 0 15px 0;
+}
+.foota a{
+  text-decoration: none;
+}
+
+.pp{
+  border-right: 3px solid white;
+  padding: 0 2rem;
+  color: white;
+
+}
+.ac {
+  border-right: 3px solid white;
+  padding: 0 2rem;
+
+  color: white
+}
+.tu {
+  padding: 0 2rem;
+  color: white
+} 
+/* Media Query*/
+/* @media screen and (max-width:800px) {
+  .carousel-height {
+    height: px;
+  } 
+}*/
+@media screen and (max-width:975px) and (min-width: 280px) {
+  .text-center{
+    padding-top: 25px;
+    color: black;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 385px) {
+  .foota {
+    display: inline;
+    text-align: center;
+    
+  }
+}
+@media screen and (min-width: 584px) {
+  .social {
+    display: inline;
+    
+  }
+}
+@media screen and (max-width: 800px){
+.carousel-inner .item img{
+  display:flex ;
+}
+} 
